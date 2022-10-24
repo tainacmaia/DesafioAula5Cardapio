@@ -1,13 +1,10 @@
-html, body {
-    margin:0px;
-    padding:0px;  
-}
-
-body{
+html, body {    
     background-image: url(../Imgs/foods.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top;    
+    margin:0px;
+    padding:0px;  
     width: 100%;
     padding: 0 0 100%;
     overflow: hidden
@@ -49,4 +46,10 @@ footer{
     opacity: 85%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+}
+
+@media screen and (max-width:900px){
+    footer{
+        font-size: 10pt;
+    }
 }
