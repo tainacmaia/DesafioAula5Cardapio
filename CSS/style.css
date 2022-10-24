@@ -1,0 +1,52 @@
+html, body {
+    margin:0px;
+    padding:0px;  
+}
+
+body{
+    background-image: url(../Imgs/foods.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding: 0 0 100%;
+    overflow: hidden
+}
+
+header{
+    background-color: gray;
+    opacity: 85%;
+    height: 60px;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;    
+}
+
+a{
+    padding-right: 70px;
+    font-size: 20pt;
+    color: white;
+}
+
+
+main{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    width: 100%;
+    top: 40%;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    opacity: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
