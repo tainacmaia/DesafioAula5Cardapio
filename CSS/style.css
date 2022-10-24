@@ -3,8 +3,8 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0px;
-    padding:0px;  
     width: 100%;
     padding: 0 0 100%;
     overflow: hidden
@@ -17,7 +17,6 @@ header{
     text-align: right;
     top: 0;
     width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 20px;    
 }
 
@@ -30,7 +29,6 @@ a{
 
 main{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
     width: 100%;
     top: 40%;
@@ -44,7 +42,6 @@ footer{
     width: 100%;
     background-color: gray;
     opacity: 85%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
 
